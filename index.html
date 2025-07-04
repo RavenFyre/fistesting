@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FIS Training Script</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+  <h2>Recruit Training Script</h2>
+
+  <div class="script-block">
+    <p id="script1">Welcome to the Federal Investigation Services! Today, we'll be covering the basics of protocol, behavior, and room functionality.</p>
+    <button class="copy-btn" onclick="copyText('script1')">Copy</button>
+  </div>
+
+  <div class="script-block">
+    <p id="script2">Ensure you greet everyone with a smile and professionalism. Use proper language and always follow command structure.</p>
+    <button class="copy-btn" onclick="copyText('script2')">Copy</button>
+  </div>
+
+  <details>
+    <summary>If the Recruit Passes</summary>
+    <p>Congratulate the recruit and direct them to the badge station. Make sure they understand the next steps.</p>
+  </details>
+
+  <details>
+    <summary>If the Recruit Fails</summary>
+    <p>Provide kind but clear feedback on what was missed. Encourage them to try again and offer support if needed.</p>
+  </details>
+
+  <script>
+    function copyText(id) {
+      const text = document.getElementById(id).innerText;
+      navigator.clipboard.writeText(text).then(() => {
+        alert("Script copied to clipboard!");
+      });
+    }
+  </script>
+
+</body>
+</html>

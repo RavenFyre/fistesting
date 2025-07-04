@@ -1,0 +1,39 @@
+body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    .script-block {
+      background: #fff;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      border-left: 4px solid #4a90e2;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      position: relative;
+    }
+    .copy-btn {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      background: #4a90e2;
+      color: #fff;
+      border: none;
+      padding: 0.4rem 0.8rem;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .copy-btn:hover {
+      background: #357abd;
+    }
+    details {
+      margin-top: 1rem;
+      background: #eef2f7;
+      padding: 0.8rem;
+      border-left: 4px solid #ccc;
+      border-radius: 4px;
+    }
+    summary {
+      cursor: pointer;
+      font-weight: bold;
+    }
