@@ -12,23 +12,74 @@
   <h2>Recruit Training Script</h2>
 
   <div class="script-block">
-    <p id="script1">Welcome to the Federal Investigation Services! Today, we'll be covering the basics of protocol, behavior, and room functionality.</p>
+    <p id="script1">Welcome to the Federal Investigation Services!</p>
     <button class="copy-btn" onclick="copyText('script1')">Copy</button>
   </div>
 
   <div class="script-block">
-    <p id="script2">Ensure you greet everyone with a smile and professionalism. Use proper language and always follow command structure.</p>
+    <p id="script2">I’m [name] and I will be your trainer during this training session.</p>
     <button class="copy-btn" onclick="copyText('script2')">Copy</button>
+  </div>
+
+  <div class="script-block">
+    <p id="script3">Please take notes, as there will be a test at the end of the training</p>
+    <button class="copy-btn" onclick="copyText('script3')">Copy</button>
+  </div>
+
+  <div class="script-block">
+    <p id="script4">If I’m going too fast or too slow, please don’t hesitate to let me know</p>
+    <button class="copy-btn" onclick="copyText('script4')">Copy</button>
+  </div>
+
+  <div class="script-block">
+    <p id="script5">During this session, please do not AFK, move or speak - unless directly asked</p>
+    <button class="copy-btn" onclick="copyText('script5')">Copy</button>
+  </div>
+
+  <div class="script-block">
+    <p id="script6">Once more, please be aware as there will be a test at the end of the training.</p>
+    <button class="copy-btn" onclick="copyText('script6')">Copy</button>
+  </div>
+
+  <div class="script-block">
+    <p id="script7">Do you have any questions before we begin?</p>
+    <button class="copy-btn" onclick="copyText('script7')">Copy</button>
   </div>
 
   <details>
     <summary>If the Recruit Passes</summary>
-    <p>Congratulate the recruit and direct them to the badge station. Make sure they understand the next steps.</p>
+    <div class="script-block">
+      <p id="script8">Congratulations [Recruit’s Username] on passing the exam!</p>
+      <button class="copy-btn" onclick="copyText('script8')">Copy</button>
+    </div>
+
+    <div class="script-block">
+      <p id="script9">Please change your motto to:</p>
+      <button class="copy-btn" onclick="copyText('script9')">Copy</button>
+    </div>
+  
+        <div class="script-block">
+      <p id="script10">[FIS] Special Agent I [Your Trainer Tag]</p>
+      <button class="copy-btn" onclick="copyText('script10')">Copy</button>
+    </div>
   </details>
 
   <details>
     <summary>If the Recruit Fails</summary>
-    <p>Provide kind but clear feedback on what was missed. Encourage them to try again and offer support if needed.</p>
+    <div class="script-block">
+      <p id="script11">I regret to inform you that you did not pass the test.</p>
+      <button class="copy-btn" onclick="copyText('script11')">Copy</button>
+    </div>
+
+    <div class="script-block">
+      <p id="script12">If you would like to retake the training, please visit the base some other time.</p>
+      <button class="copy-btn" onclick="copyText('script12')">Copy</button>
+    </div>
+
+    <div class="script-block">
+      <p id="script13">Or if you would like to redo it now, please inform me right away!</p>
+      <button class="copy-btn" onclick="copyText('script13')">Copy</button>
+    </div>
   </details>
 
   <script>
